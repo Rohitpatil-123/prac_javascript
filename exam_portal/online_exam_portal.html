@@ -1,0 +1,241 @@
+<html>
+<script>
+
+function sub()
+{
+b1=0
+ b2=0 
+b3=0
+ b4=0 
+ c1=0 
+c2=0 
+c3=0 
+c4=0 
+ d1=0 
+d2=0
+ d3=0
+ d4=0
+ e1=0
+ e2=0
+ e3=0 
+e4=0
+ z1=0
+ z2=0
+ z3=0
+ z4=0
+ g1=0 
+g2=0 
+g3=0
+ g4=0
+ h1=0
+ h2=0
+ h3=0
+ h4=0
+i1=0
+ i2=0
+ i3=0
+ i4=0
+ j1=0
+ j2=0
+ j3=0
+ j4=0
+ k1=0
+ k2=0
+ k3=0
+ k4=0
+r=0
+
+p=0
+if(f.b[0].checked)
+{b1=0}
+else if(f.b[1].checked)
+{b2=0}
+else if(f.b[2].checked)
+{b3=1}
+else if(f.b[3].checked)
+{b4=0}
+
+if(f.c[0].checked)
+{c1=0}
+else if(f.c[1].checked)
+{c2=1}
+else if(f.c[2].checked)
+{c3=0}
+else if(f.c[3].checked)
+{c4=0}
+
+ if(f.d[0].checked)
+{d1=0}
+else if(f.d[1].checked)
+{d2=0}
+else if(f.d[2].checked)
+{d3=0}
+
+else if(f.d[3].checked)
+{d4=1}
+
+if(f.e[0].checked)
+{e1=1}
+else if(f.e[1].checked)
+{e2=0}
+else if(f.e[2].checked)
+{e3=0}
+else if(f.e[3].checked)
+{e4=0}
+
+ if(f.z[0].checked)
+{z1=0}
+else if(f.z[1].checked)
+{z2=0}
+else if(f.z[2].checked)
+{z3=0}
+else if(f.z[3].checked)
+{z4=1}
+
+ if(f.g[0].checked)
+{g1=0}
+else if(f.g[1].checked)
+{g2=0}
+else if(f.g[2].checked)
+{g3=0}
+else if(f.g[3].checked)
+{g4=1}
+
+ if(f.h[0].checked)
+{h1=1}
+else if(f.h[1].checked)
+{h2=0}
+else if(f.h[2].checked)
+{h3=0}
+else if(f.h[3].checked)
+{h4=0}
+
+ if(f.i[0].checked)
+{i1=0}
+else if(f.i[1].checked)
+{i2=0}
+else if(f.i[2].checked)
+{i3=1}
+else if(f.i[3].checked)
+{i4=0}
+
+ if(f.j[0].checked)
+{j1=0}
+else if(f.j[1].checked)
+{j2=1}
+else if(f.j[2].checked)
+{j3=0}
+else if(f.j[3].checked)
+{j4=0}
+
+ if(f.k[0].checked)
+{k1=0}
+else if(f.k[1].checked)
+{k2=0}
+else if(f.k[2].checked)
+{k3=1}
+else if(f.k[3].checked)
+{k4=0}
+
+p=b1+b2+b3+b4+c1+c2+c3+c4+d1+d2+d3+d4+e1+e2+e3+e4+z1+z2+z3+z4+g1+g2+g3+g4+h1+h2+h3+h4+i1+i2+i3+i4+j1+j2+j3+j4+k1+k2+k3+k4
+if(p>=8)
+{r=" grade =A"}
+else if(p>=5)
+{r="grade=B"}
+else if (p<=4)
+{r="grade=c"}
+ if(p>4)
+{x1="PASS"}
+else if(p<=3)
+{x1="FAIL"}
+if(p>4)
+{x2="!!!!!CONGRATULATIONS!!!!!"}
+else
+{x2="!!!!BETTER LUCK NEXT TIME!!!!"}
+alert("your score is = "+p+"\n"+r+"\n"+"result= "+x1+"\n"+x2)
+
+}
+</script>
+<style>
+#a{
+height:130px;
+width:1400px;
+color:green;
+background-color:black;
+font-size:45px;
+text-align:center;
+}
+
+@media screen and (max-width: 600px) {
+ #a{
+width:500px;
+height:200px;
+background-color:green;
+color:black;
+}
+}
+
+</style>
+<body background="bg.png">
+<form name="f">
+<div id="a">
+E-CONNECT COMPUTER <br>ONLINE EXAM 2021
+</div>
+<marquee direction="right" scrollamount="10"><b>Don't try to do copy you are under observation </b></marquee> 
+<br>
+<br>
+<b><h3>1.what is the short cut key for copy?</b></h3>
+<input type=radio name=b>CTRL+n<br>
+<input type=radio name=b>CTRL+a<br>
+<input type=radio name=b>CTRL+c<br>
+<input type=radio name=b>CTRL+r<br>
+<b><h3>2.what is the full form of HTML?</b></h3>
+<input type=radio name=c>hyper text made language<br>
+<input type=radio name=c>hyper text markup language<br>
+<input type=radio name=c>hyper term mark language<br>
+<input type=radio name=c>hyper text nistry language<br>
+<b><h3>3.what is shortcut key for paste?</b></h3>
+<input type=radio name=d>CTRL+n<br>
+<input type=radio name=d>CTRL+a<br>
+<input type=radio name=d>CTRL+c<br>
+<input type=radio name=d>CTRL+v<br>
+<b><h3>4.what is the use of char data type in C?</b></h3>
+<input type=radio name=e>To enter character data type  <br>
+<input type=radio name=e>To enter decimal data type <br>
+<input type=radio name=e>To enter integer data type<br>
+<input type=radio name=e>To enter double decimal data type<br>
+<b><h3>5.which of the following is used for taking input in c?</b></h3>
+<input type=radio name=z>print()  <br>
+<input type=radio name=z>print("") <br>
+<input type=radio name=z>prin()<br>
+<input type=radio name=z>print("");<br>
+<b><h3>6.which of the following is not a loop? </b></h3>
+<input type=radio name=g>for()  <br>
+<input type=radio name=g>while() <br>
+<input type=radio name=g>do while()<br>
+<input type=radio name=g>switch<br>
+<b><h3>7.who is captain of indian cricket team?</b></h3>
+<input type=radio name=h>virat kohli  <br>
+<input type=radio name=h>rohit sharma <br>
+<input type=radio name=h>ms dhoni<br>
+<input type=radio name=h>dhawan<br>
+<b><h3>8.which of the following is used to take input from user?</b></h3>
+<input type=radio name=i>scan;<br>
+<input type=radio name=i>scanf()<br>
+<input type=radio name=i>scanf("");<br>
+<input type=radio name=i>scanf;<br>
+<b><h3>9.what is the full form of JDK </b></h3>
+<input type=radio name=j>java deep key <br>
+<input type=radio name=j>java devlopment kit <br>
+<input type=radio name=j>java demand kit<br>
+<input type=radio name=j>jason devlop kit<br>
+<b><h3>10.which of the following is scripting  language</b></h3>
+<input type=radio name=k>java <br>
+<input type=radio name=k>html<br>
+<input type=radio name=k>javascript<br>
+<input type=radio name=k>python<br>
+<br><br>
+<input type="button" value="SUBMIT" style="height:40px;width:170px;background-color:black;color:green;font-size:25px;" onclick="sub()">
+</form>
+<body>
+</html>
